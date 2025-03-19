@@ -1,0 +1,62 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right bottom,#aa2,#ffc) ;
+}
+.card{
+    text-align: center;
+    border-radius: 1rem;
+    height: 19rem;
+    background:linear-gradient(to right bottom,#aac3,#4447);
+    width: 35rem;
+    box-shadow: 0 0 7px black;
+    border: none;
+}
+.card h2{
+    padding-top: 2.6rem;
+    text-align: start;
+    height: 2rem;
+    margin: 3rem;
+    font-family: cursive;
+    
+}
+.card input{
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 80%;
+    font-size: 1.3rem;
+    border: 2px solid grey;
+}
+.card .charcter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+
+
+}
+span{
+    display: flex;
+}
+.count{
+    color:blue;
+    padding-left:5px ;
+    font-size: 1.2rem; 
+
+}
+.rest{
+    color: red;
+    padding-left: 5px;
+    font-size: 1.2rem; 
+
+}
